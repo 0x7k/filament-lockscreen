@@ -2,6 +2,16 @@
 
 All notable changes to `filament-lockscreen` will be documented in this file.
 
+## v2.1.0 - 2024-07-22
+
+### What's Changed
+
+* Bump dependabot/fetch-metadata from 1.6.0 to 2.1.0 by @dependabot in https://github.com/MarJose123/filament-lockscreen/pull/51
+* Bump dependabot/fetch-metadata from 2.1.0 to 2.2.0 by @dependabot in https://github.com/MarJose123/filament-lockscreen/pull/53
+* Update to support for Laravel 11 and newer version of PHP by @RawanD201 in https://github.com/MarJose123/filament-lockscreen/pull/54
+
+**Full Changelog**: https://github.com/MarJose123/filament-lockscreen/compare/v2.0.4...v2.1.0
+
 ## v2.0.4 - 2024-05-22
 
 ### What's Changed
