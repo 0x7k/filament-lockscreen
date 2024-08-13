@@ -2,6 +2,18 @@
 
 All notable changes to `filament-lockscreen` will be documented in this file.
 
+## v2.2.0 - 2024-08-13
+
+### What's Changed
+
+* adds activity timeout to version 2.x by @opheus2 in https://github.com/MarJose123/filament-lockscreen/pull/55
+
+### New Contributors
+
+* @opheus2 made their first contribution in https://github.com/MarJose123/filament-lockscreen/pull/55
+
+**Full Changelog**: https://github.com/MarJose123/filament-lockscreen/compare/v2.1.0...v2.2.0
+
 ## v2.1.0 - 2024-07-22
 
 ### What's Changed
