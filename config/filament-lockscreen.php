@@ -35,4 +35,6 @@ return [
         'rate_limit_max_count' => 5, // max count for failure login allowed.
         'force_logout' => false,
     ],
+
+    'activity_timeout' => 60 * 10, // 10 minutes
 ];

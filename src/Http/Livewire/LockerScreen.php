@@ -108,6 +108,7 @@ class LockerScreen extends BasePage
 
         // redirect to the main page and forge the lockscreen session
         session()->forget('lockscreen');
+        session()->forget('locker_last_activity');
         session()->regenerate();
         if (config('filament-lockscreen.enable_redirect_to')) {
             return redirect()->route(config('filament-lockscreen.redirect_route'));
