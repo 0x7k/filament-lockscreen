@@ -36,5 +36,5 @@ return [
         'force_logout' => false,
     ],
 
-    'activity_timeout' => 60 * 10, // 10 minutes
+    'activity_timeout' => 60 * 30, // 30 minutes
 ];
