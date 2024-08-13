@@ -31,10 +31,14 @@ public function panel(Panel $panel): Panel
     return $panel
         // ...
         ->plugin(new Lockscreen());  // <- Add this
+
+         ->middleware([
+              //
+              LockerTimer::class, // <- Add this
+          ])
          ->authMiddleware([
                 // ...
                  Locker::class, // <- Add this
-                 LockerTimer::class, // <- Add this
             ]);
 }
 ```
