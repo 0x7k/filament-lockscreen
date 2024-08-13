@@ -34,6 +34,7 @@ public function panel(Panel $panel): Panel
          ->authMiddleware([
                 // ...
                  Locker::class, // <- Add this
+                 LockerTimer::class, // <- Add this
             ]);
 }
 ```
