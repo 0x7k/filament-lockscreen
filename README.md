@@ -25,6 +25,7 @@ Add the plugin to your panel and add the middleware  `Locker::class` to your pan
 ```php 
 use lockscreen\FilamentLockscreen\Lockscreen;
 use lockscreen\FilamentLockscreen\Http\Middleware\Locker;
+use lockscreen\FilamentLockscreen\Http\Middleware\LockerTimer;
 
 public function panel(Panel $panel): Panel
 {
