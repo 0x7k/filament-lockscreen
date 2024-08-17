@@ -25,6 +25,7 @@ Add the plugin to your panel and add the middleware  `Locker::class` to your pan
 ```php 
 use lockscreen\FilamentLockscreen\Lockscreen;
 use lockscreen\FilamentLockscreen\Http\Middleware\Locker;
+use lockscreen\FilamentLockscreen\Http\Middleware\LockerTimer;
 
 public function panel(Panel $panel): Panel
 {
@@ -34,7 +35,7 @@ public function panel(Panel $panel): Panel
 
          ->middleware([
               //
-              LockerTimer::class, // <- Add this
+              LockerTimer::class, // <- Add this (this is an optional, if you want to lock the request after 30 minutes idle)
           ])
          ->authMiddleware([
                 // ...
