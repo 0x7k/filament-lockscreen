@@ -2,6 +2,20 @@
 
 All notable changes to `filament-lockscreen` will be documented in this file.
 
+## v2.2.1 - 2024-08-21
+
+### What's Changed
+
+* docs: add missing LockerTimer dependency in readme.md by @0x7k in https://github.com/MarJose123/filament-lockscreen/pull/56
+* redirect guest user to the login page of current panel, or default panel if current panel could not be detected. by @imami in https://github.com/MarJose123/filament-lockscreen/pull/57
+
+### New Contributors
+
+* @0x7k made their first contribution in https://github.com/MarJose123/filament-lockscreen/pull/56
+* @imami made their first contribution in https://github.com/MarJose123/filament-lockscreen/pull/57
+
+**Full Changelog**: https://github.com/MarJose123/filament-lockscreen/compare/v2.2.0...v2.2.1
+
 ## v2.2.0 - 2024-08-13
 
 ### What's Changed
