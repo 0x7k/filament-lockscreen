@@ -22,7 +22,7 @@ Route::name('lockscreen.')
                                 ? config('filament-lockscreen.url')
                                 : '/screen/lock',
                             LockerScreen::class
-                        )->name('page')->middleware(['auth']);
+                        )->name('page');
                     });
 
             }
