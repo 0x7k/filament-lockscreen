@@ -2,6 +2,10 @@
 
 return [
     'heading' => 'Екран блокування',
+    'user_menu_title' => 'Екран блокування',
+    'fields' => [
+        'password' => 'Пароль',
+    ],
     'button' => [
         'switch_account' => 'Змінити обліковий запис',
         'submit_label' => 'Увійти',
