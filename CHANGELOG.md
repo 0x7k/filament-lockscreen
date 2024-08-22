@@ -2,6 +2,18 @@
 
 All notable changes to `filament-lockscreen` will be documented in this file.
 
+## v2.2.2 - 2024-08-22
+
+### What's Changed
+
+* Update Ukrainian translate by @devSviat in https://github.com/MarJose123/filament-lockscreen/pull/58
+
+### New Contributors
+
+* @devSviat made their first contribution in https://github.com/MarJose123/filament-lockscreen/pull/58
+
+**Full Changelog**: https://github.com/MarJose123/filament-lockscreen/compare/v2.2.1...v2.2.2
+
 ## v2.2.1 - 2024-08-21
 
 ### What's Changed
